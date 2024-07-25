@@ -26,9 +26,9 @@
     }
     }
     if ($flag == 1) 
-    echo "The number $num is not a prime number";
+    echo "not prime number";
     else
-    echo "The number $num is a prime number";
+    echo "ssprime number";
   }
   ?>
     </p>
