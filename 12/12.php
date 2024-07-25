@@ -39,7 +39,7 @@
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $uname = $_POST["username"];
             $pass = $_POST["password"];
-            $file = fopen("loginDetails.txt", "r");
+            $file = fopen("logindetails.txt", "r");
 
             $content = fgets($file);
             if ($content == $uname . ":" . $pass) {
