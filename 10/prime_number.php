@@ -28,7 +28,7 @@
     if ($flag == 1) 
     echo "not prime number";
     else
-    echo "ssprime number";
+    echo "prime number";
   }
   ?>
     </p>
